@@ -174,7 +174,9 @@ this script creates a basic web server that listens on default port 3000, reads 
 
 ```
 
-
+mkdir views
+cd views
+vim messages.ejs
 ***messages.ejs***
 
 ```bash
