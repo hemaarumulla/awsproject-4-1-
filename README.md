@@ -198,7 +198,7 @@ this script creates a basic web server that listens on default port 3000, reads 
 </html>
 
 ```
-
+Note: you must create role with permission sqsfullaccess or AdministrationAceess attach to ec2instance
 ***Once all files created, Run "node app.js". Make sure your ec2 instance have role that contains valid access on SQS service***
 
 Once you access webpage on port 3000, Click on "Go to Send Page" to send a message. and "View Messages" to view messages we have in Queue.
